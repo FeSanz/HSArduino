@@ -16,7 +16,9 @@ LiquidCrystal_I2C lcd(0x27,16,2);
 const char* ssid = "TP-Link_E23C";
 const char* password =  "59582717";
 
-String host = "http://192.168.0.126/PHPSensorHS/api.php?api_humedity=";
+//String host = "http://192.168.0.126/PHPSensorHS/api.php?api_humedity=";
+String host = "https://sensorhs.000webhostapp.com//api.php?api_humedity=";
+
 HTTPClient http;
 
 int led = 23;//23
